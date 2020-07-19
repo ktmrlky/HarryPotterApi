@@ -1,6 +1,7 @@
 import React from 'react';
 import CharacterItem from './CharacterItem';
 import Spinner from '../ui/spinner';
+import Footer from '../ui/Footer';
 
 const CharacterGrid = ({ isLoading, items }) => {
   return isLoading ? (

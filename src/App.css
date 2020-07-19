@@ -134,6 +134,11 @@ input[type='text'] {
   padding-bottom: 10px;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 800px) {
   .cards {
     grid-template-columns: repeat(2, 1fr);

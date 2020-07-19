@@ -5,6 +5,7 @@ import CharacterGrid from './components/characters/CharacterGrid';
 import './App.css';
 import Search from './components/ui/Search';
 import Buttons from './components/ui/Buttons';
+import Footer from './components/ui/Footer';
 
 const App = () => {
   const [items, setItems] = useState([]);
@@ -58,6 +59,7 @@ const App = () => {
         getStaffsClick={getStaffs}
       />
       <CharacterGrid isLoading={isLoading} items={items} />
+      <Footer />
     </div>
   );
 };

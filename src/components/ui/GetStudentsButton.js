@@ -1,11 +1,8 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 
 const GetStudentsButton = (props) => {
-  return (
-    <button className="btn" onClick={props.onClick}>
-      Students
-    </button>
-  );
+  return <Button onClick={props.onClick}>Students</Button>;
 };
 
 export default GetStudentsButton;

@@ -1,11 +1,8 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 
 const ClearItemsButton = (props) => {
-  return (
-    <button className="btn" onClick={props.onClick}>
-      All
-    </button>
-  );
+  return <Button onClick={props.onClick}>All</Button>;
 };
 
 export default ClearItemsButton;
